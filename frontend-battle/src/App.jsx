@@ -6,7 +6,8 @@ import Features from './components/Features.jsx';
 import Testimonials from './components/Testimonials.jsx';
 
 import Showcase from './components/Showcase.jsx';
-import Parallax from './components/Parallax.jsx';
+
+import Footer from './Footer.jsx';
 import Loader from './components/Loader.jsx';
 
 
@@ -34,9 +35,10 @@ export default function App() {
           <Features />
            <Showcase />
           <Testimonials />
+          <Footer/>
      
          
-          <Parallax />
+      
     
         </>
       )}

@@ -33,11 +33,12 @@ export default function Navbar() {
   const links = [
     { label: 'Home', href: '#hero' },
     { label: 'Features', href: '#features' },
-    { label: 'Carbon', href: '#embodied' },
+  
     { label: 'Stats', href: '#stats' },
+      { label: 'Showcase', href: '#showcase' },
     { label: 'Testimonials', href: '#testimonials' },
-    { label: 'Technology', href: '#technology' },
-    { label: 'Showcase', href: '#showcase' },
+  
+  
  
   ];
 
@@ -45,7 +46,7 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 w-full z-50 bg-white bg-opacity-80 dark:bg-[#0b0e2c] dark:bg-opacity-80 backdrop-blur-sm px-6 py-3 flex items-center justify-between">
       {/* Logo / Brand */}
       <div className="text-xl font-bold text-gray-800 dark:text-white">
-        MyApp
+       Parivartan
       </div>
 
       {/* Desktop links */}

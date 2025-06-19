@@ -36,11 +36,11 @@ const tabs = [
 function BillingPanel() {
   return (
     <div className="w-full p-6 bg-white rounded-lg shadow-inner flex flex-col transition-opacity duration-300">
-      <div className="flex flex-col sm:flex-row justify-between mb-4">
+      <div className="flex flex-col sm:flex-row justify-between mb-4 ">
         <h4 className="text-lg font-semibold">Billing Summary</h4>
         <button className="mt-2 sm:mt-0 text-sm text-blue-600 hover:underline">View All</button>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-6  text-gray-600">
         <div className="bg-gray-100 p-4 rounded-xl">
           <p className="text-sm text-gray-500">Total Revenue</p>
           <p className="text-xl font-bold">₹1.2 Cr</p>
@@ -54,7 +54,7 @@ function BillingPanel() {
           <p className="text-xl font-bold">56</p>
         </div>
       </div>
-      <div className="bg-gray-50 p-4 rounded-xl max-h-48 overflow-y-auto">
+      <div className="bg-gray-50 p-4 rounded-xl max-h-48 overflow-y-auto text-gray-600">
         <h5 className="font-medium mb-2">Recent Transactions</h5>
         <ul className="text-sm space-y-2">
           {Array.from({ length: 8 }).map((_, idx) => (
@@ -71,7 +71,7 @@ function BillingPanel() {
 
 function ChargingPanel() {
   return (
-    <div className="w-full p-6 bg-white rounded-lg shadow-inner flex flex-col transition-opacity duration-300">
+    <div className="w-full p-6 bg-white rounded-lg shadow-inner flex flex-col transition-opacity duration-300 text-gray-600">
       <h4 className="text-lg font-semibold mb-4">Charging Metrics</h4>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
         <div className="bg-yellow-100 p-4 rounded-xl">
