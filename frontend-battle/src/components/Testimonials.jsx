@@ -37,7 +37,7 @@ export default function TestimonialS({ items = [], autoRotate = true, rotateInte
   const { quote, author, role } = testimonialItems[current];
 
   return (
-    <section className="relative w-full py-20 overflow-hidden bg-gradient-to-b from-gray-600 to-black text-white">
+    <section className="relative w-full py-20 overflow-hidden bg-gradient-to-b from-gray-600 to-black text-white" id='testimonials'>
       {/* Blurred animated blobs */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute w-96 h-96 bg-purple-500 opacity-30 rounded-full blur-3xl animate-blob left-[-20%] top-[-10%]"></div>

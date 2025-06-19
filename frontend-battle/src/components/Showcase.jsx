@@ -78,7 +78,7 @@ export default function Showcase({
   };
 
   return (
-    <section className="relative w-full overflow-hidden bg-white">
+    <section className="relative w-full overflow-hidden bg-white" id='showcase'>
       {/* Diagonal background shape, dynamic color/clip-path */}
       <div
         className="absolute inset-0"
