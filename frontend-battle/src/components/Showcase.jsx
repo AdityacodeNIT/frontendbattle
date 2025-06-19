@@ -9,21 +9,23 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 export default function Showcase({
   items = [{
-    imageSrc: '/assets/case1.jpg',
-    titleLines: ['SWITCH', 'SOPRA STERIA KICK OFF', '2025'],
-    tags: ['NORWAY', 'B2E EVENT'],
-    largeNumber: '01',
-    onReadMore: () => console.log('Read more case 1'),
-    onViewAll: () => console.log('View all from case 1'),
-  },
-  {
-    imageSrc: '/assets/case2.jpg',
-    titleLines: ['NEXT', 'ANOTHER CASE TITLE', '2024'],
-    tags: ['INDIA', 'WEB EVENT'],
-    largeNumber: '02',
-    onReadMore: () => console.log('Read more case 2'),
-    onViewAll: () => console.log('View all from case 2'),
-  },],
+  imageSrc: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1200&q=80',
+  titleLines: ['SWITCH', 'SOPRA STERIA KICK OFF', '2025'],
+  tags: ['NORWAY', 'B2E EVENT'],
+  largeNumber: '01',
+  onReadMore: () => console.log('Read more case 1'),
+  onViewAll: () => console.log('View all from case 1'),
+},
+{
+ imageSrc: 's.jpg'
+,
+  titleLines: ['NEXT', 'ANOTHER CASE TITLE', '2024'],
+  tags: ['INDIA', 'WEB EVENT'],
+  largeNumber: '02',
+  onReadMore: () => console.log('Read more case 2'),
+  onViewAll: () => console.log('View all from case 2'),
+}
+],
   autoRotate = true,
   rotateInterval = 5000,
 }) {

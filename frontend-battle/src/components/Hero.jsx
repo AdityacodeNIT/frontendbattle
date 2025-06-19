@@ -147,9 +147,7 @@ export default function HeroSection() {
         <button className="bg-white text-[#003366] font-semibold px-6 py-3 rounded-md shadow hover:bg-blue-100 transition">
           Start 14-day free trial
         </button>
-        <a href="#features" className="text-blue-200 hover:text-white underline text-sm text-center">
-          👀 See what we do
-        </a>
+       
       </div>
 
       {/* Floating Chart Cards */}

@@ -147,7 +147,7 @@ export default function FeatureTabsSection() {
   const active = tabs.find((t) => t.key === activeTab);
 
   return (
-    <section className="w-full bg-slate-400 py-12 sm:py-16 px-4">
+    <section className="w-full bg-slate-400 py-12 sm:py-16 px-4" id='features'>
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-10 sm:mb-12">
           <p className="text-xs sm:text-sm uppercase text-gray-200 tracking-wider mb-2">Efficiency, Scalability, and Agility</p>
